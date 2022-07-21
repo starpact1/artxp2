@@ -7,7 +7,7 @@ import HostingBanner from '../Components/IndexPage/HostingBanner'
 import HowDoesPrivateExperiencesWork from '../Components/PrivateBookings/HowDoesPrivateExperiencesWork'
 
 
-function index() {
+function Index() {
     return (
         <div>
             <Header />
@@ -33,4 +33,4 @@ function index() {
     )
 }
 
-export default index
+export default Index

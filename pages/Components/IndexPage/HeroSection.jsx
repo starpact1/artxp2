@@ -83,7 +83,7 @@ function HeroSection() {
     setFeatureImage(t1[watch1 - 1].image)
     
 
-    Swiper1.current.swiper.slideNext()
+    Swiper1.current.swiper.slideTo(watch1+1)
 
   }, [watch1])
 
@@ -137,11 +137,11 @@ function HeroSection() {
         </Box>
         {/* Progress */}
       </Box>
-      <Box sx={{ position: "absolute", ml: "152px", mt: "170px", background: "transparent", top: "0px", zIndex: 99 }}>
+      <Box sx={{ position: "absolute", ml: "156px", mt: "170px", background: "transparent", top: "0px", zIndex: 99 }}>
         {/* <Container variant="ct1"> */}
         <Typography component="h2" variant="bannerHeading"> Bringing people </Typography>
         <Typography variant="bannerHeading"> together through art </Typography>
-        <Box sx={{ mt: "12px" }}>
+        <Box sx={{ mt: "8px" }}>
           <Typography variant="bannerSubHeading"> Search and book art experiences near you. </Typography>
         </Box>
 
@@ -203,6 +203,7 @@ function HeroSection() {
         {/* </Container> */}
 
       </Box>
+      
       <Swiper
         ref={Swiper1}
         navigation={{
@@ -215,6 +216,10 @@ function HeroSection() {
         watchSlidesProgress={true}
         a11y= {true}
       >
+        <SwiperSlide>
+          <Box className={styles.overlay}></Box>
+          <Image src="/Images/Images/slide6.jpg" layout="fill"></Image>
+        </SwiperSlide>
 
         <SwiperSlide >
           <Box className={styles.overlay}></Box>
@@ -241,10 +246,7 @@ function HeroSection() {
           <Image src="/Images/Images/slide5.png" layout="fill"></Image>
         </SwiperSlide>
 
-        <SwiperSlide>
-          <Box className={styles.overlay}></Box>
-          <Image src="/Images/Images/slide6.jpg" layout="fill"></Image>
-        </SwiperSlide>
+        
 
       </Swiper>
     </div>
