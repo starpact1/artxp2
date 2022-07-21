@@ -10,10 +10,10 @@ const Theme = createTheme({
 
   typography: {
     fontFamily: [
+      'Gordita-Regular',
       '-apple-system',
       'BlinkMacSystemFont',
       '"Segoe UI"',
-      'Gordita',
       '"Helvetica Neue"',
       'Arial',
       'sans-serif',
