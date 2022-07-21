@@ -1,0 +1,77 @@
+.section{
+    margin-top: 100px;
+    margin-bottom: 25px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.textBlock{
+    max-width: 730px;
+    width: 90%;
+    padding: 16px 90px 140px 0;
+    border-bottom: 1px solid #f5f6f7;
+    white-space: pre-line;
+}
+
+.text1{
+    line-height: 140%;
+    font-size: 14px;
+    font-family: "Gordita-Regular";
+}
+
+.text2{
+    line-height: 150%;
+    font-size: 14px;
+    font-family: "Gordita-Regular";
+    color: #64676a;
+    margin-top: 16px;
+}
+
+.text3{
+    line-height: 150%;
+    font-size: 16px;
+    font-family: "Gordita-Regular";
+    font-weight: 400;
+    color: #64676a;
+    margin-top: 16px;
+}
+
+.CookieDeclarationType {
+    display: block;
+    margin: 12px 0 12px 0;
+    padding: 8px 8px 0 8px;
+    border: 1px solid #333333;
+    vertical-align: top;
+}
+
+
+.CookieDeclarationTable {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0 0 18px 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.CookieDeclarationTableHeader {
+    font-weight: bold;
+    border-bottom: 1px solid #777777;
+    text-align: left;
+    padding: 4px;
+    overflow: hidden;
+}
+
+
+.CookieDeclarationTableCell {
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    border-bottom: 1px solid #777777;
+    vertical-align: top;
+    padding: 4px 4px 5px 4px;
+    font-family: "Gordita-Regular";
+}

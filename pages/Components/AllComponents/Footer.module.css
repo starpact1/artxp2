@@ -1,0 +1,29 @@
+.linkList li
+{
+    list-style: none;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.linkList li:hover
+{
+    text-decoration: underline;
+}
+
+.socialList{
+    list-style: none;
+}
+
+.socialList li
+{
+    list-style: none;
+    font-size: 11px;
+    line-height: 16px;
+    margin-bottom: 8px;
+}
+
+.socialList li:hover
+{
+    text-decoration: underline;
+}
