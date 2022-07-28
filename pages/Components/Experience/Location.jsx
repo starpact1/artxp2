@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Button, Collapse, Typography } from '@mui/material'
+import { Button, ButtonBase, Collapse, Typography } from '@mui/material'
 import styles from "../../experience/index.module.css"
 
 function Location() {
@@ -28,13 +28,13 @@ function Location() {
                 </Typography>
             </Collapse>
 
-            <Button className={styles.readMoreButton} onClick={() => setReadMore(prev => !prev)}>
+            <ButtonBase className={styles.reButtonBase} onClick={() => setReadMore(prev => !prev)}>
                 {readMore ?
                     "Hide Locations details"
                     :
                     "About the location"
                 }
-            </Button>
+            </ButtonBase>
 
 
 

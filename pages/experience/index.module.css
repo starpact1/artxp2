@@ -79,7 +79,7 @@
     top: 0;
     background: linear-gradient(180deg,hsla(0,0%,100%,0),hsla(0,0%,100%,0) 70%,hsla(0,0%,100%,.9) 95%,#fff);
     width: 100%;
-    height: inherit;
+    height: 100%;
 }
 
 .PageLink{
