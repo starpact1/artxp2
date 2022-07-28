@@ -289,13 +289,16 @@ function TextSection({ type }) {
                                 </ButtonBase>
                                 <Box sx={{ textAlign: "center", mt: "6px" }}>
                                     <Typography variant="fs11fw400" color="#8e9499">
-                                        By proceeding you agree to our <a href="/terms-conditions" className={styles.hoverText}>terms and conditions</a>
+                                        By proceeding you agree to our <span className={styles.hoverText}> <Link href="/terms-conditions" >terms and conditions</Link> </span>
                                     </Typography>
                                     <Box sx={{ mt: "22px" }}>
-                                        <a href="#" style={{ fontSize: "13px", color: "#8e9499" }}>
-                                            <CalendarTodayIcon fontSize='inherit' />
+                                        <Link href="#" >
+                                            <span style={{ fontSize: "13px", color: "#8e9499" }}>
+                                                <CalendarTodayIcon fontSize='inherit' />
                                             <Typography variant="fs13fw400" color="#8e9499" className={styles.hoverText} ml="4px" >View all Dates</Typography>
-                                        </a>
+                                            </span>
+                                            
+                                        </Link>
                                     </Box>
 
                                 </Box>

@@ -25,7 +25,7 @@ function SingleReview({ firstname, lastname, date, rating, review }) {
                 <Box sx={{ fontSize: "12px", mb: "16px" }}>
 
                     {[...Array(rating)].map((item, key) =>
-                        <StarIcon fontSize='' />
+                        <StarIcon key={key} fontSize='' />
                     )}
 
                 </Box>

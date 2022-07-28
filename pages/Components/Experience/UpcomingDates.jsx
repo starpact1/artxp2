@@ -95,12 +95,12 @@ function UpcomingDates({ type }) {
                             <OnSale sale="on sale" image="/Images/Paintings/p1.png" absoluteText="printmaking" title="Linocut Print Workshop with Henry the Rabbit" price="500 DKK" place="Copenhagen, Denmark" dateString="Tuesday, 19th Jul 2022, 22:00 - 00:30" hosted="Hosted by Craig Martin Wood" />
                         </SwiperSlide>
 
-                        <SwiperSlide style={{ height: "auto", background: "#F5F6F7" }} >
-                            <a href="/upcoming-experiences" style={{ height: "100%" }}>
+                        <SwiperSlide style={{ height: "auto", background: "#F5F6F7", cursor: "pointer" }} >
+                            <Link href="/upcoming-experiences" style={{ height: "100%" }}>
                                 <Box sx={{ width: "100%", height: "100%", display: "flex", justifyContent: "center", alignItems: "center" }}>
                                     <Typography variant="fs16fw400" fontSize="16px">See More</Typography>
                                 </Box>
-                            </a>
+                            </Link>
                         </SwiperSlide>
 
                     </Swiper>

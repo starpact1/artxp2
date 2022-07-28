@@ -9,7 +9,7 @@ import UpcomingDates from '../Components/Experience/UpcomingDates'
 import LightBox from '../Components/AllComponents/LightBox'
 import { Link as Link1 } from 'react-scroll'
 import Link from 'next/link'
-import SocialShare from '../Components/Experience/SocialShare'
+
 
 // Modal
 import Modal from '@mui/material/Modal';

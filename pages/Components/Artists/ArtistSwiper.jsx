@@ -76,7 +76,6 @@ function ArtistSwiper() {
                 <Swiper
                     slidesPerView={"auto"}
                     spaceBetween={0}
-                    pagination={false}
                     loop={true}
                     centeredSlides={true}
                     modules={[Navigation, Pagination]}
