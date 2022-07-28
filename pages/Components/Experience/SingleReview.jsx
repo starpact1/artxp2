@@ -4,7 +4,7 @@ import StarIcon from '@mui/icons-material/Star';
 import styles from "../../experience/index.module.css"
 
 
-function SingleReview({ firstname, lastname, date, rating, review }) {
+function SingleReview({ firstname, lastname, date, rating, review = ""  }) {
 
     const src = "https://ui-avatars.com/api/?name=" + firstname + " " + lastname + "&rounded=true&font-size=0.3&size=48px&background=F5F6F7"
 
