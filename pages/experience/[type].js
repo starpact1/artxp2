@@ -92,9 +92,9 @@ function Types() {
                                     <Image src="/Images/LoaderImages/L5.jfif" width="24px" height="24px" alt="image" style={{ borderRadius: "50%", }} />
                                 </Box>
 
-                                <Typography variant="fs13fw400" color="#000000" > Hosted By  </Typography>
+                                <Typography variant="fs13fw400" color="#000000" > Hosted By &nbsp;  </Typography>
                                 <Typography variant="fs13fw400" color="#000000" className="aLinkUnderline">
-                                    <Link href="/artists" > &nbsp; Rita Howis  </Link>
+                                    <Link href="/artists" > Rita Howis  </Link>
                                 </Typography>
 
                             </Box>
