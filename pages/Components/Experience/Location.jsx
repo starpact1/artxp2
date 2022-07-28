@@ -28,7 +28,7 @@ function Location() {
                 </Typography>
             </Collapse>
 
-            <ButtonBase className={styles.reButtonBase} onClick={() => setReadMore(prev => !prev)}>
+            <ButtonBase className={styles.readMoreButton} onClick={() => setReadMore(prev => !prev)}>
                 {readMore ?
                     "Hide Locations details"
                     :
