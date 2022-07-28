@@ -81,4 +81,25 @@ a {
 .fs12 {
   font-size: 12px;
 }
+.swiper-button-disabled{
+  opacity: 0.3;
+}
+
+.ReactModal__Overlay
+{
+  z-index: 1112 !important;
+}
+
+.swiper-slide-active{
+  opacity: 1 !important;
+}
+
+.linkActive
+{
+  opacity: 1 !important;
+}
+
+.aLinkUnderline:hover{
+text-decoration: underline !important;
+}
 

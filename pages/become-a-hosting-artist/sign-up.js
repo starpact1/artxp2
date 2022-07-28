@@ -32,7 +32,7 @@ function SignUp() {
   return (
     <div>
       <Box sx={{ display: "flex", justifyContent: "space-between", minHeight: "100vh", flexDirection: "column", position: "relative", }}>
-        <Box sx={{ width: "100hw", border: "1px solid", minHeight: "100vh", padding: "78px 48px 40px" }}>
+        <Box sx={{ width: "100hw",  minHeight: "100vh", padding: "78px 48px 40px" }}>
           <Box sx={{
             position: "fixed",
             top: 0,
@@ -94,7 +94,7 @@ function SignUp() {
                 {/* Last Name */}
                 <Box sx={{ width: "calc(50% - 8px)", position: "relative", }}>
                   <Box sx={{ paddingBottom: "12px", }}>
-                    <Typography variant="fs12fw700"> Your first name </Typography>
+                    <Typography variant="fs12fw700"> Your last name </Typography>
                     <InputBase className={styles.inputClass} />
                   </Box>
                 </Box>

@@ -1,0 +1,35 @@
+.navUl
+{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 164px;
+    list-style-type: none;
+    margin: 0px;
+}
+
+.navUlLi > a
+{
+    margin-bottom: 12px;
+    cursor: pointer;
+    opacity: .3;
+    transition: opacity .2s;
+    line-height: 140%;
+    font-size: 12px;
+
+}
+
+.active {
+    opacity: 1;
+    line-height: 140%;
+    font-size: 12px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.bioText{
+    font-size: 13px;
+    line-height: 140%;
+    padding-top: 16px;
+    font-family: "Gordita-Regular";
+    white-space: pre-line;
+}

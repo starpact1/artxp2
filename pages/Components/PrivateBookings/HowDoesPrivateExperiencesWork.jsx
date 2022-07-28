@@ -10,7 +10,7 @@ function HowDoesPrivateExperiencesWork() {
                     <Grid item sm={6}>
                         <Slider />
                     </Grid>
-                    <Grid item sm={6}>
+                    <Grid item sm={6} sx={{fontFamily: "Gordita-Regular"}}>
                         <Typography variant="fs32fw700" color="#000000" lineHeight="140%"> How Does Private Experiences Work? </Typography>
                         <Box sx={{ mt: "32px" }}>
                             <Typography variant="fs16fw700"> Step 1 </Typography> <br />

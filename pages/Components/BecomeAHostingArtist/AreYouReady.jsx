@@ -14,7 +14,7 @@ function AreYouReady() {
                     </Typography>
                 </Box>
                 <Box>
-                    <Link href="/">
+                    <Link href="/become-a-hosting-artist/sign-up">
                         <ButtonBase variant="shareButton" sx={{ color: "#ffffff", background: "#141414", "&:hover": { background: "#2B2B2B" } }}>
                             Start Hosting!
                         </ButtonBase>

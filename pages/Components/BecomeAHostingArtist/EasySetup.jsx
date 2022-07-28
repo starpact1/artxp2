@@ -48,7 +48,7 @@ function EasySetup() {
                             <Typography fontSize="17px" fontWeight="400" lineHeight="26px" fontFamily="Gordita-Regular"> {item.text} </Typography>
                         </Box>
                         <Box>
-                            <Link href="/">
+                            <Link href="/become-a-hosting-artist/sign-up">
                                 <ButtonBase variant="shareButton" sx={{ color: "#ffffff", background: "#141414", "&:hover": { background: "#2B2B2B" } }}>
                                     {item.button}
                                 </ButtonBase>

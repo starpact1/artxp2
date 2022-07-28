@@ -28,7 +28,7 @@ function NavBar1() {
     <div>
       {pathname != "/become-a-hosting-artist/sign-up" &&
       <>
-      {(pathname == "/" || pathname == "/become-a-hosting-artist") && scrollTop < 10 ?
+      {(pathname == "/" || pathname == "/become-a-hosting-artist" || pathname == "/artists") && scrollTop < 10 ?
         <AppBar position="fixed" onMouseEnter={() => setLogo("/Images/Icon/LogoDark.png")} onMouseLeave={() => setLogo("/Images/Icon/LogoWhite.png")} sx={{ height: "62px", background: "transparent", boxShadow: "none", borderBottom: "0.5px solid rgba(20,20,20,.1)", color: "#fff", justifyContent: "center", alignItems: "center", "&:hover": { background: "#ffffff", color: "#000000 !important" } }}>
           <Container variant="ct110" maxWidth="xl" >
             <Grid container justifyContent="center" alignItems="center">

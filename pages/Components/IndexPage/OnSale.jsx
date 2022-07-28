@@ -59,7 +59,7 @@ function OnSale({sale, image, absoluteText, title, price, place, dateString, hos
           }
         </Box>
 
-        <Box sx={{ display: "flex", justifyContent: "space-between", mt: "21px" }}>
+        <Box sx={{ display: "flex", justifyContent: "space-between", mt: "21px", textAlign: "left" }}>
           <Box sx={{ width: "70%", fontSize: "13px", fontWeight: "700", }}>
             {isMouseIn ?
               <u>
@@ -81,11 +81,11 @@ function OnSale({sale, image, absoluteText, title, price, place, dateString, hos
           </Box>
         </Box>
 
-        <Box sx={{}}>
+        <Box sx={{ textAlign: "left" }}>
           <Typography variant="fs11fw400" lineHeight="14px" color="#545454" > {place} </Typography>
         </Box>
 
-        <Box sx={{mt: "12px", pt:"2px", display: "flex", flexDirection: "column" }}>
+        <Box sx={{mt: "12px", pt:"2px", display: "flex", flexDirection: "column", textAlign: "left" }}>
           <Typography  variant="fs10fw400" fontWeight="500" color="#545454"> {dateString} </Typography>
         
           <Typography variant="fs10fw400" color="#545454"> {hosted} </Typography>

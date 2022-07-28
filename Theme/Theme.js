@@ -126,6 +126,14 @@ const Theme = createTheme({
       lineHeight: "140%"
     },
 
+    fs8fw400: {
+      fontWeight: 200,
+      fontSize: "8px",
+      color: "#000000",
+      fontStyle: "normal",
+      lineHeight: "140%"
+    },
+
 
     fs18fw700: {
       fontWeight: 700,
@@ -163,6 +171,14 @@ const Theme = createTheme({
     fs32fw700: {
       fontWeight: 700,
       fontSize: "32px",
+      color: "#fff",
+      fontStyle: "normal",
+      lineHeight: "35px"
+    },
+
+    fs36fw700: {
+      fontWeight: 700,
+      fontSize: "36px",
       color: "#fff",
       fontStyle: "normal",
       lineHeight: "35px"
