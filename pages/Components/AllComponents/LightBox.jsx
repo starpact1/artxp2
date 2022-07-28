@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
 
-function LightBox({lightBoxClose1, pIndex, images}) {
+function LightBox({lightBoxClose1, pIndex, images = []}) {
 
     const [photoIndex, setPhotoIndex] = useState(pIndex)
 
