@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Box, Button, Collapse, Typography } from '@mui/material'
+import { Box, Button, ButtonBase, Collapse, Typography } from '@mui/material'
 import StarIcon from '@mui/icons-material/Star';
 import styles from "../../experience/index.module.css"
 
@@ -55,13 +55,13 @@ function SingleReview({ firstname, lastname, date, rating, review = ""  }) {
                                     </Typography>
                                 </Box>
                             </Collapse>
-                            <Button className={styles.readMoreButton} onClick={() => setReadMore(prev => !prev)}>
+                            <ButtonBase className={styles.readMoreButton} onClick={() => setReadMore(prev => !prev)}>
                                 {readMore ?
                                     "Close Review "
                                     :
                                     "Read full review"
                                 }
-                            </Button>
+                            </ButtonBase>
                         </>
 
                     }

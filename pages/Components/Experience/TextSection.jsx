@@ -118,13 +118,13 @@ function TextSection({ type }) {
                                 </Box>
                             </Collapse>
 
-                            <Button className={styles.readMoreButton} onClick={() => setReadMore(prev => !prev)}>
+                            <ButtonBase className={styles.readMoreButton} onClick={() => setReadMore(prev => !prev)}>
                                 {readMore ?
                                     "Read Less "
                                     :
                                     "Read More"
                                 }
-                            </Button>
+                            </ButtonBase>
                         </Box>
 
                     </Box>
@@ -166,7 +166,7 @@ function TextSection({ type }) {
                         </Box>
 
                         <Box>
-                            <Button className={styles.readMoreButton} sx={{ opacity: "1 !important", fontSize: "12px !important", fontWeight: "bold" }}> Inquire now </Button>
+                            <ButtonBase className={styles.readMoreButtonBase} sx={{ opacity: "1 !important", fontSize: "12px !important", fontWeight: "bold" }}> Inquire now </ButtonBase>
 
                         </Box>
 
