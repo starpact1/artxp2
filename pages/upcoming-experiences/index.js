@@ -186,7 +186,7 @@ function Index() {
 
                     <Grid container spacing={5} item sm={9}>
 
-                        <Grid item sm={12} sx={{ mb: "22px" }}>
+                        <Grid item sm={12} sx={{ mb: "22px", mt: "-8px" }}>
                             <ul className={styles.timeUl}>
                                 <li onClick={() => setActiveTime("all")} style={{ fontWeight: `${activeTime == "all" ? 700 : 400}` }}> All </li>
                                 <li onClick={() => setActiveTime("today")} style={{ fontWeight: `${activeTime == "today" ? 700 : 400}` }}> Today </li>

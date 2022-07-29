@@ -75,7 +75,7 @@ function ArtistSwiper() {
             <Box className={styles.swiperContainer} sx={{ ml: `-${marginLeft}` }} >
                 <Swiper
                     slidesPerView={"auto"}
-                    spaceBetween={0}
+                    spaceBetween={8}
                     loop={true}
                     centeredSlides={true}
                     modules={[Navigation, Pagination]}

@@ -32,7 +32,7 @@ function SingleReview({ firstname, lastname, date, rating, review = ""  }) {
 
                 <Box>
                     {review.length < 108 ?
-                        <Typography variant="fs11fw400" component="div" >
+                        <Typography variant="fs11fw400" fontFamily="Gordita-Regular" component="div" >
                             {review}
                         </Typography>
 
@@ -50,7 +50,7 @@ function SingleReview({ firstname, lastname, date, rating, review = ""  }) {
                                         </Box>
                                     }
 
-                                    <Typography variant="fs11fw400" component="div" >
+                                    <Typography variant="fs11fw400" fontFamily="Gordita-Regular" component="div" >
                                         {review}
                                     </Typography>
                                 </Box>

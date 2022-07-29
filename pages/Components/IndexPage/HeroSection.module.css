@@ -21,3 +21,28 @@ height: inherit;
     top: 0;
     z-index: 999999;
 }
+
+.selectOption{
+    display: block;
+    color: #8e9499;
+    position: absolute;
+    top: calc(100% + 2px);
+    background-color: #fff;
+    width: 100%;
+    padding: 8px;
+    border: 0.5px solid #f5f6f7;
+    border-top: none;
+    max-height: 250px;
+    overflow: scroll;
+}
+.selectOptionLi
+{
+    padding: 6px 0;
+    border-bottom: 1px solid #f5f6f7;
+    cursor: pointer;
+    text-transform: capitalize;
+    line-height: 140%;
+    font-size: 14px;
+    font-family: "Gordita-Regular";
+    list-style-type: none;
+}

@@ -37,7 +37,7 @@ function OnSale({sale, image, absoluteText, title, price, place, dateString, hos
       <Box sx={{ position: "relative", cursor: "pointer", mb: "28px" }} onMouseEnter={mouseIn} onMouseLeave={mouseOut}>
 
         <Box sx={{ width: "100%", textAlign: "center", background: `${saleBColor}` }} >
-          <Typography variant='fs11fw400' textTransform="uppercase" color={saleColor} lineHeight="normal" > {sale} </Typography>
+          <Typography variant='fs11fw400' textTransform="uppercase" color={saleColor} lineHeight="normal" fontFamily="Gordita-Regular"> {sale} </Typography>
         </Box>
         <Box sx={{ width: "100%", height: "220px", position: "relative" }}>
 
@@ -49,12 +49,12 @@ function OnSale({sale, image, absoluteText, title, price, place, dateString, hos
 
           <img src={image} style={{ width: "100%",  height: "100%", objectFit: "cover", objectPosition: "center" }} all="images1" />
           <Box sx={{ position: "absolute", top: "16px", left: "16px", backgroundColor: "hsla(0,0%,100%,.7)", color: "#141414", py: "5px", px: "8px" }}>
-            <Typography variant="fs11fw400" color="#141414" textTransform="uppercase">  {absoluteText} </Typography>
+            <Typography variant="fs11fw400" color="#141414" textTransform="uppercase" fontFamily="Gordita-Regular">  {absoluteText} </Typography>
           </Box>
 
           {sOnline &&           
             <Box sx={{ position: "absolute", top: "16px", right: "16px", backgroundColor: "rgba(20,20,20,.4)", color: "#141414", py: "5px", px: "8px" }}>
-              <Typography variant="fs11fw400" color="#ffffff" textTransform="uppercase">  Online </Typography>
+              <Typography variant="fs11fw400" color="#ffffff" textTransform="uppercase" fontFamily="Gordita-Regular">  Online </Typography>
             </Box>
           }
         </Box>
@@ -82,13 +82,13 @@ function OnSale({sale, image, absoluteText, title, price, place, dateString, hos
         </Box>
 
         <Box sx={{ textAlign: "left" }}>
-          <Typography variant="fs11fw400" lineHeight="14px" color="#545454" > {place} </Typography>
+          <Typography variant="fs11fw400" lineHeight="14px" color="#545454" fontFamily="Gordita-Regular"> {place} </Typography>
         </Box>
 
         <Box sx={{mt: "12px", pt:"2px", display: "flex", flexDirection: "column", textAlign: "left" }}>
-          <Typography  variant="fs10fw400" fontWeight="500" color="#545454"> {dateString} </Typography>
+          <Typography  variant="fs10fw400" fontWeight="500" color="#545454" fontFamily="Gordita-Regular"> {dateString} </Typography>
         
-          <Typography variant="fs10fw400" color="#545454"> {hosted} </Typography>
+          <Typography variant="fs10fw400" color="#545454" fontFamily="Gordita-Regular"> {hosted} </Typography>
         </Box>
       </Box>
     </div>

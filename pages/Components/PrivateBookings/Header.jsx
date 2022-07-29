@@ -5,16 +5,16 @@ function Header() {
   return (
     <div>
         <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column", width: "100%", pt: "136px", textAlign: "center" }}>
-                <Typography variant="fs16fw500" fontWeight="400"> Private Experiences </Typography>
+                <Typography variant="fs16fw500" fontWeight="400" fontFamily="Gordita-Regular"> Private Experiences </Typography>
 
-                <Typography mt="22px" variant="fs32fw700" fontWeight="400" lineHeight="42px" color="#000000"> Transforming your occasion into a fun, </Typography>
-                <Typography variant="fs32fw700" fontWeight="400" color="#000000"> artistic, and memorable one </Typography>
+                <Typography mt="22px" variant="fs32fw700" fontWeight="400" lineHeight="46px" color="#000000" fontFamily="Gordita-Regular"> Transforming your occasion into a fun, </Typography>
+                <Typography variant="fs32fw700"  fontWeight="400" color="#000000" fontFamily="Gordita-Regular"> artistic, and memorable one </Typography>
 
-                <ButtonBase variant="shareButton" sx={{ mt: "61px", backgroundColor: "#141414", width: "229px", color: "#ffffff", "&:hover": { backgroundColor: " rgba(20,20,20,.9)" } }}>
+                <ButtonBase variant="shareButton" sx={{ mt: "61px", backgroundColor: "#141414", width: "229px", color: "#ffffff",  "&:hover": { backgroundColor: " rgba(20,20,20,.9)" } }}>
                     View Private Experiences
                 </ButtonBase>
 
-                <Box sx={{mt: "102px", display: "flex", width: "86%", justifyContent: "space-around", alignItems: "center"}}>
+                <Box sx={{mt: "102px", display: "flex", width: "83%", justifyContent: "space-around", alignItems: "center"}}>
                     <Box>
                         <img src="/Images/Images/c1.png" />
                     </Box>

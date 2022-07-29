@@ -61,31 +61,31 @@ function UpComingExperience() {
                         <img src="/Images/Icon/palette.png" height="26px" />
                         <Box sx={{ pl: "22px", display: "flex", flexDirection: "column", "&:hover": { color: "#FE3559", cursor: "pointer" } }}>
                             <Typography variant="fs13fw700" color="inherit"> Painting </Typography>
-                            <Typography variant="fs11fw400" color="inherit"> Explore painting experiences </Typography>
+                            <Typography variant="fs11fw400" color="inherit" fontFamily="Gordita-Regular"> Explore painting experiences </Typography>
                         </Box>
                     </Box>
 
                     <Box sx={{ display: "flex", }}>
-                        <Image src="/Images/Icon/photography.png" width="26px" height="26px" />
+                        <img src="/Images/Icon/photography.png" width="26px" height="26px" />
                         <Box sx={{ pl: "22px", display: "flex", flexDirection: "column", "&:hover": { color: "#FE3559", cursor: "pointer" } }}>
                             <Typography variant="fs13fw700" color="inherit"> Photography </Typography>
-                            <Typography variant="fs11fw400" color="inherit"> Explore photography experiences </Typography>
+                            <Typography variant="fs11fw400" color="inherit" fontFamily="Gordita-Regular"> Explore photography experiences </Typography>
                         </Box>
                     </Box>
 
                     <Box sx={{ display: "flex", }}>
-                        <Image src="/Images/Icon/printmaking.png" width="26px" height="26px" />
+                        <img src="/Images/Icon/printmaking.png" width="26px" height="26px" />
                         <Box sx={{ pl: "22px", display: "flex", flexDirection: "column", "&:hover": { color: "#FE3559", cursor: "pointer" } }}>
                             <Typography variant="fs13fw700" color="inherit"> Printmaking </Typography>
-                            <Typography variant="fs11fw400" color="inherit"> Explore printmaking experiences </Typography>
+                            <Typography variant="fs11fw400" color="inherit" fontFamily="Gordita-Regular"> Explore printmaking experiences </Typography>
                         </Box>
                     </Box>
 
                     <Box sx={{ display: "flex", }}>
-                        <Image src="/Images/Icon/figuredrawing.png" width="26px" height="26px" />
+                        <img src="/Images/Icon/figuredrawing.png" width="26px" height="26px" />
                         <Box sx={{ pl: "22px", display: "flex", flexDirection: "column", "&:hover": { color: "#FE3559", cursor: "pointer" } }}>
                             <Typography variant="fs13fw700" color="inherit"> Figure drawing </Typography>
-                            <Typography variant="fs11fw400" color="inherit"> Explore figure drawing experiences </Typography>
+                            <Typography variant="fs11fw400" color="inherit" fontFamily="Gordita-Regular"> Explore figure drawing experiences </Typography>
                         </Box>
                     </Box>
                 </Box>
@@ -95,7 +95,7 @@ function UpComingExperience() {
                 <Box sx={{ display: "flex", mt: "90px", justifyContent: "space-between", pb: "28px", borderBottom: "1px solid #f5f6f7" }}>
                     <Box>
                         <Typography variant="fs18fw700" > Upcoming Experiences in </Typography>
-                        <select style={{ fontSize: "18px", fontWeight: "700", color: "#8e9499", border: "none" }}>
+                        <select style={{ outline: "none", fontSize: "18px", fontWeight: "700", color: "#8e9499", border: "none" }}>
                             <option> Copenhagen </option>
                         </select>
                     </Box>
@@ -147,7 +147,7 @@ function UpComingExperience() {
 
                 <Box sx={{textAlign: "right"}}>
                     <Link href="#" >
-                        <Typography variant="fs11fw400" sx={{ cursor: "pointer", letterSpacing: "1px", "&:hover": { textDecoration: "underline" } }}>See all (49)</Typography>
+                        <Typography variant="fs11fw400" fontFamily="Gordita-Regular" sx={{ cursor: "pointer", letterSpacing: "1px", "&:hover": { textDecoration: "underline" } }}>See all (49)</Typography>
                     </Link>
                 </Box>
 

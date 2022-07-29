@@ -34,15 +34,33 @@ function Slider() {
                     prevEl: navigationPrevRef.current,
                     nextEl: navigationNextRef.current,
                 }}
-                observeParents={true}
-                observer={true}
-                    onBeforeInit={(swiper) => {
-                        swiper.params.navigation.prevEl = navigationPrevRef.current;
-                        swiper.params.navigation.nextEl = navigationNextRef.current;
-                        swiper.params.pagination.el = paginationRef.current;
+
+                onSwiper={(swiper) => {
+                    // Delay execution for the refs to be defined
+                    setTimeout(() => {
+                      // Override prevEl & nextEl now that refs are defined
+                    //   swiper.params.navigation.prevEl = navigationPrevRef.current
+                    //   swiper.params.navigation.nextEl = navigationNextRef.current
+                    //   swiper.params.pagination.el = paginationRef.current
+            
+                      // Re-init navigation
+                    //   swiper.navigation.destroy()
+                    //   swiper.navigation.init()
+                    //   swiper.navigation.update()
+
+                    //   swiper.pagination.destroy()
+                    //   swiper.pagination.init()
+                    //   swiper.pagination.update()
+                    })
+                  }}
+                
+                //     onBeforeInit={(swiper) => {
+                //         swiper.params.navigation.prevEl = navigationPrevRef.current;
+                //         swiper.params.navigation.nextEl = navigationNextRef.current;
+                //         swiper.params.pagination.el = paginationRef.current;
 
                       
-                   }}
+                //    }}
 
 
                 watchSlidesProgress={true}
@@ -63,7 +81,10 @@ function Slider() {
             </Swiper>
 
             <Box sx={{ display: "flex", fontSize: "11px", width: "100%", position: "absolute", justifyContent: "space-between", right: "0px", bottom: "-40px", zIndex: "99" }}>
-                <div ref={paginationRef} >  </div>
+                <Box>
+                    <div ref={paginationRef} >  </div>
+                </Box>
+                
                 <Box sx={{ display: "flex" }}>
                     <div style={{}} ref={navigationPrevRef} > <KeyboardArrowLeftIcon fontSize="small" /> </div>
                     <div ref={navigationNextRef} > <KeyboardArrowRightIcon fontSize="small" /> </div>

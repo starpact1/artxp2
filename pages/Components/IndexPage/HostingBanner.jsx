@@ -11,7 +11,7 @@ function HostingBanner() {
                     <Grid item sm={6} sx={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", minHeight: "inherit" }}>
                         <Box sx={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
                             <Typography variant='fs32fw700' fontWeight="700"> Become a Hosting Artist Today </Typography>
-                            <Box sx={{ fontSize: "14px", textAlign: "left",  lineHeight: "54px", opacity: .5, color: "#fff" }}>
+                            <Box sx={{ fontSize: "14px", textAlign: "left",  lineHeight: "54px", opacity: .5, color: "#fff", fontFamily:"Gordita-Regular" }}>
                                 Share your art with the world while earning a valuable income
                             </Box>
                         </Box>

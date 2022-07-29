@@ -123,26 +123,7 @@ function SignUp() {
                 </Box>
               </Box>
 
-              <Box sx={{ display: "flex", width: "100%", flexDirection: "column" }}>
-                <Box sx={{ paddingBottom: "12px", }}>
-                  <Typography variant="fs12fw700"> Your email </Typography>
-                  <InputBase className={styles.inputClass} />
-                </Box>
-              </Box>
-
-              <Box sx={{ display: "flex", width: "100%", flexDirection: "column" }}>
-                <Box sx={{ paddingBottom: "12px", }}>
-                  <Typography variant="fs12fw700"> Your password </Typography>
-                  <InputBase className={styles.inputClass} />
-                </Box>
-              </Box>
-
-              <Box sx={{ display: "flex", width: "100%", flexDirection: "column" }}>
-                <Box sx={{ paddingBottom: "12px", }}>
-                  <Typography variant="fs12fw700"> Repeat password </Typography>
-                  <InputBase className={styles.inputClass} />
-                </Box>
-              </Box>
+              
 
               <Box sx={{ display: "flex", width: "100%", flexDirection: "column" }}>
                 <Box sx={{ paddingBottom: "12px", }}>

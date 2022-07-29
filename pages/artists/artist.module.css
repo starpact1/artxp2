@@ -7,6 +7,10 @@
     margin: 0px;
 }
 
+.navUlLi{
+    margin-bottom: 8px;
+}
+
 .navUlLi > a
 {
     margin-bottom: 12px;
@@ -29,7 +33,7 @@
 .bioText{
     font-size: 13px;
     line-height: 140%;
-    padding-top: 16px;
+    padding-top: 12px;
     font-family: "Gordita-Regular";
     white-space: pre-line;
 }

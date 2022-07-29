@@ -25,7 +25,7 @@ function NavBar1() {
 
 
   return (
-    <div>
+    <div style={{zIndex: "999"}}>
       {pathname != "/become-a-hosting-artist/sign-up" &&
       <>
       {(pathname == "/" || pathname == "/become-a-hosting-artist" || pathname == "/artists") && scrollTop < 10 ?
